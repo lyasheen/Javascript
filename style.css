@@ -1,0 +1,143 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(47, 70%, 83%);
+    margin: 0px;
+    color: hsl(22, 30%, 50%);
+    padding-top: 130px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(41, 80%, 76%);
+    background-size: 100%;
+    padding: 10px 15px 15px 15px;
+    color: hsl(22, 30%, 50%);
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    z-index: 1;
+    border-color: hsl(47, 70%, 83%);
+}
+
+header h1 {
+    margin: 10px;
+}
+
+header h2 {
+    font-size : 10px;
+    padding-left : 15px;
+} 
+
+header div {
+    display: flex;
+    flex-direction: column;
+} 
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(22, 30%, 50%);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: hsl(47, 70%, 83%);
+    margin-top: 20px;
+    margin-right:50px;
+    transition: transform 0.5s;
+    margin-bottom: 10px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#promessesClient p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    color: #B0724D;
+    font-size: 20px;
+}
+
+#realisations > div {
+    display: flex;
+    gap: 30px;
+}
+
+#realisations > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#realisations > div > div h3 {
+    display: flex;
+    font-size: 40px;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+#realisations > div > div p {
+    display: flex;
+    font-size: 20px;
+    width: 500px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+#temoignages > div {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    
+}
+
+#temoignages > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(41, 80%, 76%);
+    border-radius: 20px;
+    padding: 20px;
+
+    transition: transform 0.5s;
+}
+
+#temoignages > div > div h1 {
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+#temoignages > div > div:hover {
+    transform: scale(1.05);
+}
+
+#temoignages > div > div h3 {
+    color: hsl(41, 80%, 76%);
+width: fit-content;
+    border-radius: 100%;
+    background-color:hsl(22, 30%, 50%);
+    padding: 10px 15px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(41, 80%, 76%);
+    width: 100%;
+}
